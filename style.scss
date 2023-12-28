@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(38, 38, 38);
+}
+
+h1, h2, h4, h5 {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 1500px;
+    margin-bottom: 70px;
+}
+
+#wf3 {
+    font-size: 50px;
+}
+
+#wf4 {
+    font-size: 25px;
+}
+
+#wf1 {
+    margin-top: -70px;
+    font-size: px;
+    color: white;
+}
+
+#wf2 {
+    font-size: 100px;
+    color: white;
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    color: white;
+}
